@@ -1,4 +1,4 @@
-import Type from "../Interface/Type";
+import Type from "../Interfaces/Type";
 
 export abstract class TypeEau implements Type{
     _degats: number;

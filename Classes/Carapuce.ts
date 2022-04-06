@@ -1,5 +1,5 @@
-import { TypeEau } from "../Abstract/TypeEau";
-import Pokemon from "../Interface/Pokemon";
+import { TypeEau } from "./TypeEau";
+import Pokemon from "../Interfaces/Pokemon";
 
 /* La classe Carapuce hérite de l'interface Pokemmon ainsi que de l'abstract TypeEau */
 export default class Carapuce extends TypeEau implements Pokemon {

@@ -1,4 +1,4 @@
-import Pokemon from "../Interface/Pokemon";
+import Pokemon from "../Interfaces/Pokemon";
 
 export default class Dresseur {
     _nom: string;

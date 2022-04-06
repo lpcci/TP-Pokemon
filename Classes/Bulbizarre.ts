@@ -1,5 +1,5 @@
-import { TypePlante } from "../Abstract/TypePlante";
-import Pokemon from "../Interface/Pokemon";
+import Pokemon from "../Interfaces/Pokemon";
+import { TypePlante } from "./TypePlante";
 
 /* La classe Bulbizarre hérite de l'interface Pokemmon ainsi que de l'abstract TypePlante */
 export default class Bulbizarre extends TypePlante implements Pokemon {

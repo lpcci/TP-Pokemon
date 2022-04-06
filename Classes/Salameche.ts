@@ -1,5 +1,5 @@
-import { TypeFeu } from "../Abstract/TypeFeu";
-import Pokemon from "../Interface/Pokemon";
+import Pokemon from "../Interfaces/Pokemon";
+import { TypeFeu } from "./TypeFeu";
 
 /* La classe Salameche hérite de l'interface Pokemmon ainsi que de l'abstract TypeFeu */
 export default class Salameche extends TypeFeu implements Pokemon {

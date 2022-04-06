@@ -1,6 +1,6 @@
-import Type from "../Interface/Type";
+import Type from "../Interfaces/Type";
 
-export abstract class TypeFeu implements Type{
+export abstract class TypePlante implements Type{
     _degats: number;
 
     constructor(degats: number) {
@@ -19,14 +19,14 @@ export abstract class TypeFeu implements Type{
 
     /* Méthode héritée de l'interface Type */
     attaquerFeu() {
-        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerFeu`);
+        console.log(`TypePlante inflige ${this._degats}pv de degats pour AttaquerFeu`);
     }
 
     attaquerEau() {
-        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerEau`)
+        console.log(`TypePlante inflige ${this._degats}pv de degats pour AttaquerEau`)
     }
 
     attaquerPlante() {
-        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerPlante`)
+        console.log(`TypePlante inflige ${this._degats}pv de degats pour AttaquerPlante`)
     }
 }

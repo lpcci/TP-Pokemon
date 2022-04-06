@@ -1,4 +1,4 @@
-import Pokemon from "../Interface/Pokemon";
+import Pokemon from "../Interfaces/Pokemon";
 import Dresseur from "./Dresseur";
 
 export default class Pokeball {
