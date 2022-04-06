@@ -1,0 +1,32 @@
+import Type from "../Interface/Type";
+
+export abstract class TypeFeu implements Type{
+    _degats: number;
+
+    constructor(degats: number) {
+        this._degats = degats;
+    }
+
+    /* Getter pour récupérer notre propriété de classe */
+    public get degats(): number {
+        return this._degats;
+    }
+
+    /* Setter pour l'affectation de valeur sur notre propriété de classe */
+    public set degats(degats: number) {
+        this._degats = degats;
+    }
+
+    /* Méthode héritée de l'interface Type */
+    attaquerFeu() {
+        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerFeu`);
+    }
+
+    attaquerEau() {
+        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerEau`)
+    }
+
+    attaquerPlante() {
+        console.log(`TypeFeu inflige ${this._degats}pv de degats pour AttaquerPlante`)
+    }
+}
