@@ -1,8 +1,10 @@
 import Pokemon from "../Interfaces/Pokemon";
 
 export default class Dresseur {
+    /* Attribut de la class */
     _nom: string;
 
+    /* Méthodes de la class */
     ajouterPokeballs() {
         console.log(`Le dresseur ${this._nom} ajoute une ou plusieurs Pokeballs`);
     }
